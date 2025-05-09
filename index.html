@@ -72,7 +72,8 @@
       const price = document.getElementById('price').value;
 
       // Encode into a URL for product.html
-      const fullData = `${window.location.origin}/product.html?name=${encodeURIComponent(productName)}&id=${encodeURIComponent(productId)}&destination=${encodeURIComponent(destination)}&price=${encodeURIComponent(price)}`;
+      const fullData = `${window.location.origin}/barcode/product.html?name=${encodeURIComponent(productName)}&id=${encodeURIComponent(productId)}&destination=${encodeURIComponent(destination)}&price=${encodeURIComponent(price)}`;
+
 
       const downloadBtn = document.getElementById('downloadBtn');
 
